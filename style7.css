@@ -1,0 +1,57 @@
+:root{
+    --primrary-color:#13171a;
+    --secondary-color:#1b1f22;
+}
+html, body {
+    background-color:var(--primrary-color);
+    margin:0;
+    height:100%;
+    color:white;
+    font-family: helvetica;
+}
+header {
+    height: 60px;
+    background-color: var(--secondary-color);
+    margin:0;
+}
+.list-of-transactions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.transaction {
+    width: calc(20% - 20px);
+    background-color: #1B1F22;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 1001px) {
+    .transaction:nth-child(5n) {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .transaction {
+        width: calc(25% - 18.75px);
+    }
+
+    .transaction:nth-child(4n) {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 700px) {
+    .transaction {
+        width: calc(50% - 12.5px)
+    }
+    .transaction:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .transaction {
+        width: 100%;
+        margin-right:0px;
+    }
+}
