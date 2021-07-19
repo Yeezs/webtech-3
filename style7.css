@@ -10,7 +10,7 @@ html, body {
     font-family: helvetica;
 }
 header {
-    height: 60px;
+    height: 59px;
     background-color: var(--secondary-color);
     margin:0;
 }
