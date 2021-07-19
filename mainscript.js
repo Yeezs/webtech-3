@@ -38,7 +38,7 @@ allTransactionNames.unshift("Entertainment");
 // New value of the array = ["Entertainment", "Groceries", "Subscriptions", "Rent", "Transport"]
 // Get the 5th element in the array - "Transport"
 console.log("The 5th element is = " + allTransactionNames[4]);
-let allTransactionAmounts = [20.10, 10.24, 4.99, 400, 69];
+let allTransactionAmounts = [20.10, 10.24, 4.99, 420, 69];
 
 
 

@@ -1,6 +1,6 @@
 :root{
     --primrary-color:#13171a;
-    --secondary-color:#1b1f22;
+    --secondary-color:#1b2f22;
 }
 html, body {
     background-color:var(--primrary-color);
